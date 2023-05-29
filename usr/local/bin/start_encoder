@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "orangepi" | sudo -S /usr/bin/python3 /home/orangepi/gpio_tests/encoder.py >/var/log/interface/encoder_out 2>&1
+#python3 /home/orangepi/gpio_tests/encoder.py

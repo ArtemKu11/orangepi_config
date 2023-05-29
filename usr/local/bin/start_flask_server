@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source /home/orangepi/gpio_tests/venv/bin/activate
+
+python3 /home/orangepi/gpio_tests/interface/app.py >/var/log/interface/flask_out 2>&1

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#startx >/home/orangepi/x_out 2>&1 -- -nocursor
+startx >/var/log/interface/x_out 2>&1

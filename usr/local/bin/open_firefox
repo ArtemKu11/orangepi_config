@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#xrandr -o left
+#firefox-esr --kiosk -height 1920 -width 1080 http://localhost:5000
+firefox-esr --kiosk -height 1080 -width 1920 http://localhost:5000

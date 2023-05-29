@@ -1,0 +1,30 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.10.122:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 306-566-626
+127.0.0.1 - - [29/May/2023 10:29:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:35] "GET /static/css/app.33740a2e.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:35] "[36mGET /static/js/chunk-vendors.bbe801bb.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:35] "[36mGET /static/js/app.d5c851b2.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:37] "GET /static/img/move_icon_disabled.d7cbeb8a.svg HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:37] "GET /static/img/print_icon_disabled.7fb2a882.svg HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:37] "GET /static/img/menu.26b45196.svg HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:37] "[36mGET /static/img/move.84cf348e.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:37] "[36mGET /static/img/star.b50287dd.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:37] "[36mGET /static/img/settings.9679dc3e.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:37] "[36mGET /static/img/back.b74106b4.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:40] "[36mGET /static/img/star_active.1793f88c.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:41] "[36mGET /static/img/move_active.8783834a.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:41] "[36mGET /static/img/gorelka_logo.8b8556ed.svg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/May/2023 10:29:41] "GET /static/img/big_coord_button.e4257922.png HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:41] "GET /static/img/big_coord_button_transposed.5185b73c.png HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:41] "GET /static/img/keyboard_button.fe8e81aa.svg HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:41] "GET /static/img/minus.34bc8abd.svg HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:41] "GET /static/img/plus.90d43496.svg HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2023 10:29:42] "[36mGET /static/img/keyboard_button_active.5f7dedb7.svg HTTP/1.1[0m" 304 -

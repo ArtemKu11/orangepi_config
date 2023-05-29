@@ -55,37 +55,47 @@ class EncoderProcessor:
         self.set_pin_mode('in')
         self.refresh_pin_values()
 
-
         while True:
             first_value, second_value = self.get_pin_values()
-            if first_value != self.first_pin_value:
-               if second_value == self.second_pin_value:
-                   if self.first_pin_value == 1:
-                       if self.second_pin_value == 1:
-                           self.print_using_timeout("ПРОТИВ")
-                       else:
-                           self.print_using_timeout("ПО")
-                   elif self.first_pin_value == 0:
-                       if self.second_pin_value == 1:
-                           self.print_using_timeout("ПО")
-                       else:
-                           self.print_using_timeout("ПРОТИВ")
-
-            elif second_value != self.second_pin_value:
-                if self.second_pin_value == 1:
-                    if self.first_pin_value == 1:
-                        self.print_using_timeout("ПО")
-                    else:
-                        self.print_using_timeout("ПРОТИВ")
-                elif self.second_pin_value == 0:
-                    if self.first_pin_value == 1:
-                        self.print_using_timeout("ПРОТИВ")
-                    else:
-                        self.print_using_timeout("ПО")
-
-
+            if first_value == 1 and second_value == 1 and self.first_pin_value == 1 and self.second_pin_value == 0:
+                # self.print_using_timeout("ПРОТИВ")
+                print("ПРОТИВ")
+            elif first_value == 1 and second_value == 1 and self.first_pin_value == 0 and self.second_pin_value == 1:
+                print("ПО")
+                # self.print_using_timeout("ПО")
             self.first_pin_value = first_value
             self.second_pin_value = second_value
+
+        # while True:
+        #     first_value, second_value = self.get_pin_values()
+        #     if first_value != self.first_pin_value:
+        #        if second_value == self.second_pin_value:
+        #            if self.first_pin_value == 1:
+        #                if self.second_pin_value == 1:
+        #                    self.print_using_timeout("ПРОТИВ")
+        #                else:
+        #                    self.print_using_timeout("ПО")
+        #            elif self.first_pin_value == 0:
+        #                if self.second_pin_value == 1:
+        #                    self.print_using_timeout("ПО")
+        #                else:
+        #                    self.print_using_timeout("ПРОТИВ")
+        #
+        #     elif second_value != self.second_pin_value:
+        #         if self.second_pin_value == 1:
+        #             if self.first_pin_value == 1:
+        #                 self.print_using_timeout("ПО")
+        #             else:
+        #                 self.print_using_timeout("ПРОТИВ")
+        #         elif self.second_pin_value == 0:
+        #             if self.first_pin_value == 1:
+        #                 self.print_using_timeout("ПРОТИВ")
+        #             else:
+        #                 self.print_using_timeout("ПО")
+        #
+        #
+            # self.first_pin_value = first_value
+            # self.second_pin_value = second_value
 
 
 
